@@ -17,7 +17,7 @@ public static class Index
         // Execute the query.
         foreach (int i in scoreQuery)
         {
-            Console.Write(i + " ");
+            Console.Write($"{i} ");
         }
 
         // Output: 97 92 81
